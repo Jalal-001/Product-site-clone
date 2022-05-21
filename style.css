@@ -1,0 +1,30 @@
+body{
+    background:#CCF3EE
+}
+@media(max-width:768px){
+    .card .img-wrap{
+        border-bottom: 1px solid  #dee2e6;
+    }
+}
+.checked{
+    color: orange;
+}
+.img-wrap{
+    height: 250px;
+    padding: 3rem;
+    display: block;
+    text-align: center;
+}
+.card img{
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+.price{
+    color: orange;
+    font-size: 22px;
+}
+.ratings{
+    font-size: 13px;
+}
